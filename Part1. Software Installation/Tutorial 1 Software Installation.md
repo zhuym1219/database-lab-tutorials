@@ -2,7 +2,7 @@
 
 > Contributors:
 >
-> Designed by [ZHU Yueming](mailto:zhuym@sustech.edu.cn) and [WU Yechang](mailto:11711918@mail.sustech.edu.cn) In 2020
+> Designed by ZHU Yueming and WU Yechang In 2020
 >
 > Improved by ZHU Yueming and WANG Ziqin in 2021
 >
@@ -16,17 +16,8 @@
 
 ## Part 1. Environment Configuration
 
-[MacOS user](###MacOS users)
-
-[Linux user](###Linux users)
-
-[Windows user](###Windows users)
-
-[Docker users](###Docker users)
-
 ### macOS users
 
-[Back to Environment Configuration](##Part 1. Environment Configuration)
 
 #### 1. Installation & Usage
 
@@ -157,7 +148,6 @@ See [For Docker users](#For Docker users)
 
 ### Linux users
 
-[Back to Environment Configuration](##Part 1. Environment Configuration)
 
 #### 1. Installation
 
@@ -251,7 +241,6 @@ You can follow the instructions in [PostgreSQL documentation](https://www.postgr
 
 ### Windows users
 
-[Back to Environment Configuration](##Part 1. Environment Configuration)
 
 #### 1. Installation
 
