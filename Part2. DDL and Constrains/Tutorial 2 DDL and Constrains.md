@@ -397,7 +397,7 @@ alter table customer add constraint check_phone check ( length(phone_number)>=11
   The result would be:
 
   ```
-  [2BP01] 错误: 无法删除 表 customer 因为有其它对象倚赖它 详细：在表 booking_record上的约束fk_customer 倚赖于 表 customer 建议：使用 DROP .. CASCADE 把倚赖对象一并删除.
+  [2BP01] ERROR: cannot drop table customer because other objects depend on it Detail: constraint fk_customer on table booking_record depends on table customer Hint: Use DROP ... CASCADE to drop the dependent objects too.
   ```
 
 - Solution 1.  Drop table customer and all its foreign key constraints in other  tables.
