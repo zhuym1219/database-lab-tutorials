@@ -13,11 +13,11 @@ Connection pool serves as a collection which contains several opening database c
 
 **For ordinary process:**
 
-<img src="./pictures/cp3.jpg" alt="avater" style="zoom:40%;" />
+<img src="./pictures/cp3.png" alt="avater" style="zoom:40%;" />
 
 **Using connection pool:**
 
-<img src="./pictures/cp4.jpg" alt="avater" style="zoom:40%;" />
+<img src="./pictures/cp4.png" alt="avater" style="zoom:50%;" />
 
 ## Build Your Project
 
@@ -29,11 +29,11 @@ load all data from ```shenzhen_metro.sql```  into database
 
 - The structure of your project should be:
 
-  <img src="./pictures/cp1.jpg" alt="avater" style="zoom:50%;" />
+  <img src="./pictures/cp1.png" alt="avater" style="zoom:50%;" />
 
 - Add lib folder to project library
 
-  <img src="./pictures/cp2.jpg" alt="avater" style="zoom:40%;" />
+  <img src="./pictures/cp2.png" alt="avater" style="zoom:40%;" />
 
 - Configure your  ```protocol.xml```
 

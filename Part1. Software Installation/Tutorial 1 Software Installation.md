@@ -190,11 +190,15 @@ systemctl status postgresql.service
 As shown below, if `postgresql.service` is active, it is running in the background; If `postgresql.service` is enabled, it launches after system startup.
 
 ```javascript
- postgresql.service - PostgreSQL RDBMS
-   Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: enabled)
-   Active: active (exited) since Wed 2020-12-16 15:53:28 CST; 3 weeks 2 days ago
-  Process: 2522 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
- Main PID: 2522 (code=exited, status=0/SUCCESS)
+● postgresql.service - PostgreSQL RDBMS
+     Loaded: loaded (/lib/systemd/system/postgresql.service; enabled; vendor preset: e>
+     Active: active (exited) since Mon 2024-02-19 15:53:32 CST; 12min ago
+    Process: 1993495 ExecStart=/bin/true (code=exited, status=0/SUCCESS)
+   Main PID: 1993495 (code=exited, status=0/SUCCESS)
+        CPU: 1ms
+
+Feb 19 15:53:32 ecs-fa2a systemd[1]: Starting PostgreSQL RDBMS...
+Feb 19 15:53:32 ecs-fa2a systemd[1]: Finished PostgreSQL RDBMS.
 ```
 
 Enable `postgresql.service` if it is disabled:
@@ -214,6 +218,14 @@ sudo systemctl start postgresql.service
 1. a <font color='BLUE'>database</font> named `postgres`.
 2. a <font color='BLUE'>database user</font> named `postgres`.
 3. a <font color='BLUE'>Linux system user</font> named `postgres`.
+
+##### Step 7. Change system user to postgres
+
+```
+su - postgres
+```
+
+
 
 ##### By Docker
 
