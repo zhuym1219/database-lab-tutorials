@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- the proxool configuration can be embedded within your own application's.
+Anything outside the "proxool" tag is ignored. -->
+
+<something-else-entirely>
+    <proxool>
+        <alias>postgres</alias>
+        <driver-url>jdbc:postgresql://127.0.0.1:5432/cs307</driver-url>
+        <driver-class>org.postgresql.Driver</driver-class>
+        <driver-properties>
+            <property name="user" value="checker"/>
+            <property name="password" value="123456"/>
+        </driver-properties>
+        <minimum-connection-count>5</minimum-connection-count>
+        <maximum-connection-count>10</maximum-connection-count>
+
+    </proxool>
+</something-else-entirely>
